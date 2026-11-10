@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="https://images.squarespace-cdn.com/content/v1/530e6f89e4b0f62bb1b853af/1398958611618-LT9PMYG68GPC86O6XT51/favicon.ico?format=100w" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    
+    <audio src="audio/creep - radio head.mp3" autoplay loop></audio> 
+    <div id="cafe">
+        
+        <nav id="navegador">
+            <h1><a href="index.html">fifty coffees</a></h1>
+            <ul class="menu">
+                <li><a href="index.html"><i class="fa-regular fa-heart"></i> Inicio</a></li>
+                <li><a href="blog.html"><i class="fa-solid fa-pencil"></i> blog</a></li>
+                <li ><a href="nosotros.html"> <i class="fa-solid fa-person"></i>Nosotros</a></li>
+                <li><a href="galeria.html"><i class="fa-solid fa-image"></i> Galeria</a></li>
+                <li><a href="videos.html"><i class="fa-solid fa-video"></i> Videos</a></li>
+                <li><a id="caf" href="contactos.html"><i class="fa-solid fa-address-book"></i>contactos</a></li>
+            </ul>
+        </nav>
+        <main>
+    <div id="contacto-container">
+        <!-- Columna Izquierda: Tabla e Imagen -->
+        <div class="columna-izquierda">
+            <table class="tabla-contacto">
+                <tr>
+                    <th colspan="2" class="negro">Información de Contacto</th>
+                </tr>
+                <tr>
+                    <td>Dirección</td>
+                    <td>Jr. Carabaya 552 - Lima Perú</td>
+                </tr>
+                <tr>
+                    <td>Teléfonos</td>
+                    <td>997 577 470 | 980 978 484 | (01) 533 5242</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>info@fiftycoffes.com</td>
+                </tr>
+                <tr>
+                    <th colspan="2" class="negro">Horarios de Atención Presencial</th>
+                </tr>
+                <tr>
+                    <td>Área de Ventas</td>
+                    <td>De Lunes a viernes de 8 am a 6 pm</td>
+                </tr>
+            </table>
+            
+            <!-- Imagen de la taza de café -->
+            <div class="imagen-cafe">
+                <img src="/img/cafecontactos.webp" alt="cafecontactos">
+            </div>
+        </div>
+
+        <!-- Columna Derecha: Formulario -->
+        <form class="formulario">
+            <h3 class="tituloformulario">Formulario</h3>
+            
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="celular">Celular*</label>
+            <input type="tel" id="celular" name="celular" placeholder="999 999 999">
+
+            <label for="correo">Correo electrónico*</label>
+            <input type="email" id="correo" name="correo" placeholder="nombre@dominio.com">
+
+            <label for="ruc">RUC - Empresa (opcional)</label>
+            <input type="text" id="ruc" name="ruc">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Detalla tu experiencia a continuación como punto de inicio"></textarea>
+
+            <button type="submit">ENVIAR</button>
+        </form>
+    </div>
+        <div id="mapa">
+        <div class="mapatitulo">Local Central</div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.9181001500556!2d-77.03478412386325!3d-12.049155941947724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8b7cb32c82b%3A0x2355d505fc223ffa!2sLima%20Caf%C3%A9!5e0!3m2!1ses-419!2spe!4v1794277245620!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" id="mapacafe"></iframe>
+         </div>
+        </main>
+        <footer>
+                <ul class="redes">
+                    <li><a href="https://x.com/fifty_coffees"><img src="img/gorjeo.png" alt=""></a></li>
+                    <li><a href="https://web.facebook.com/lindsay.ratowsky"><img src="img/facebook.png" alt=""></a></li>
+                    <li><a href="https://www.instagram.com/fifty_coffees/"><img src="img/instagram.png" alt=""></a></li>
+                    <li><a href="https://www.tiktok.com/@fiftysixcoffee_eatery?is_from_webapp=1&sender_device=pc"><img src="img/tik-tok.png" alt=""></a></li>
+                </ul>
+                
+        </footer>
+    </main> 
+</body>
+</html>
+</body>
